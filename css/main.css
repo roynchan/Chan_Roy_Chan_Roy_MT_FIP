@@ -1,0 +1,20 @@
+
+
+#siteContainer {
+    margin: 0 auto;
+    width: 920px;
+    padding-left: 20px;
+    padding-left: 20px;
+}
+
+#mainHeader {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    border-bottom: solid 1px #DDD;
+}
+
+#logo { 
+    width: 200px;
+    float: left;
+}
