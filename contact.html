@@ -26,24 +26,47 @@
                 <ul>
                     <li><a  href="index.html">HOME</a></li>
                     <li><a  href="about.html">ABOUT</a></li>
-                    <li><a class="active" href="product.html">PRODUCTS</a></li>
+                    <li><a href="product.html">PRODUCTS</a></li>
                     <li><a href="advertisment.html">ADVERTISMENT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a class="active" href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
        
         </header>
 
-        <section> <img src="images/promotions_image5.jpg" alt="hero image" width="1440" height="720"></section>
+        <section id="contact">
+            <p>Contact Us</p>
+            <div class="box ">
+           
+                <form>
+                <label>Your Name</label>
+                <input type="text" class="field" placeholder="Your Name">
+                <br><br>
+                <label>Your Email</label>
+                <input type="email" class="field" placeholder="Your Email Adress">
+                <br><br>
+                <label>Your Thoughts</label>
+                <textarea class="field" placeholder="Your Thoughts"></textarea>
+                <br><br>
+                <label for="country">Your Country</label>
+            <select id="country" name="country">
+            <option value="australia">Canada</option>
+            <option value="canada">USA</option>
+            <option value="usa">Germany</option>
+            <option value="usa">Hong Kong</option>
+            <option value="usa">UK</option>
+            </select>
+            <br><br>
+            <button type="button" class="sub">Submit</button>
+                </form>
 
-        <section class="B-body1">
-             <p>Product's Informations</p>      
-             <img src="images/product_info.png" alt="images of our products" width="1440" height="720">  
-         
-             <img src="images/product_info.png" alt="images of our products" width="1440" height="720">     
+            </div>
             
-             <img src="images/product_info.png" alt="images of our products" width="1440" height="720">        
+
+
+
         </section>
+
         <footer id="mainFooter">
             <h2 class="hidden">Main Footer Navigation</h2>
             <p class="firstline">The new Rules of beer</p>
@@ -82,6 +105,7 @@
 
         </div>
         
+        <script src="js/main.js"></script>
     
 </body>
 </html>
