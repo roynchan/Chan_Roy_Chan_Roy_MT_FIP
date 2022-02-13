@@ -1,5 +1,10 @@
 .hidden { display: none;}
 
+#siteContainer {
+    margin: 0 auto;
+  
+}
+
 #circle {
     width: 200px;
     height:200px;
@@ -534,3 +539,81 @@ color: white;
     text-align: center;
     font-size: xx-large;
     color: white;}
+
+#contact {
+    width: 1440px;
+    height: 720px;
+background-color: #93855D;
+}
+
+#contact p {
+    text-transform: capitalize;
+    margin-top: 0%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+ 
+    font-size: 4em;
+    color: white;
+
+}
+#contact img {margin-left: 25em;}
+
+.box {
+
+    margin-top: 4em;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+form {
+    align-items: center;
+    margin-left: 1em;
+    margin: 23px;
+}
+
+.field{
+    
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    outline: none;
+}
+
+label {text-transform: capitalize;
+    margin-top: 1em;
+    font-family: 'Oswald', sans-serif;}
+
+#country { width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    outline: none;}
+
+.sub {
+    margin-top: 1em;
+    border-radius: 20px;
+    color: #fff;
+    padding: 20px;
+    width: 450px;
+    background-color: darkred;
+    font-size: 15px;
+    border: none;
+}
+ 
+.sub:hover {cursor: pointer;
+    background-color: red;
+      -webkit-transition: background-color 500ms linear;
+         -ms-transition: background-color 500ms linear;
+         transition: background-color 500ms linear;
+}
