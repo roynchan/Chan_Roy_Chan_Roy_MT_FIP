@@ -1,5 +1,26 @@
 .hidden { display: none;}
 
+#circle {
+    width: 200px;
+    height:200px;
+    border: 10px solid red;
+    margin: 0 auto;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: circle 2s infinite forwards;
+}
+
+@keyframes circle {
+    0% { border-color: red; transform: scale(1);}
+    25% {border-color: gold; transform: scale(1.1);}
+    50%{border-color: red; transform: scale(1.3);}
+    75%{border-color: gold; transform:scale(1.1);}
+    100%{border-color: red;transform: scale(1);}
+}
+
 .header {width: 100%;
     height: 5em;
     display: block;
@@ -120,7 +141,7 @@
 .body3 
     {
         width: 1440px;
-        height: 820px;
+        height: 920px;
     background-color: #11271A;}
 
     .body3 img {
@@ -137,7 +158,7 @@
     margin-top: 1em;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    font-size: xx-large;
+    font-size: large;
     color: white;
     
 }
@@ -152,12 +173,12 @@
 
 .body3 a {
     display:block;
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 50px;
     background-color: grey;
     color: #fff;
-    margin-top: 4em;
-    margin-left: 38.5em;
+    margin-top: 0em;
+    margin-left: 0em;
     text-align: center;
     padding: 8px;
     font-size: 16px;
@@ -280,3 +301,181 @@
         font-size: 25px;
         font-weight: 600;
         }
+
+
+
+        .two-item {
+            display: grid;
+            grid-column: 2 / span 2;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-evenly;
+            row-gap: 1em;
+         }
+
+         .A-body1 
+    {
+        width: 1440px;
+        height: 620px;
+    background-color: #93855D;}
+
+    .A-body1 img {
+        margin-top: 6em;
+        margin-left: 2em;
+    }
+
+    .A-body1  img:hover {
+        color: white;
+    }
+
+.A-body1  p {
+    text-transform: capitalize;
+    margin-top: 3em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.A-body2 
+    {
+        width: 1440px;
+        height: 920px;
+    background-color: #11271A;}
+
+    .A-body2 img {
+        margin-top: 2em;
+        margin-left: 33em;
+    }
+
+    .A-body2 img:hover {
+        color: white;
+    }
+
+.A-body2 p {
+    text-transform: capitalize;
+    margin-top: 1em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.A-body3 
+{
+    width: 1440px;
+    height: 720px;
+background-color: #93855D;}
+
+.A-body3 img {
+    margin-top: 11.5em;
+    margin-left: 2em;
+}
+
+.A-body3  img:hover {
+    color: white;
+}
+
+.large  {
+text-transform: capitalize;
+margin-top: 3em;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+font-size: xx-large;
+color: white;
+}
+
+.small  {
+    text-transform: capitalize;
+    margin-top: 3em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    }
+
+    .A-body4 
+    {
+        width: 1440px;
+        height: 920px;
+    background-color: #11271A;}
+
+    .A-body4 img {
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+
+    .A-body4 img:hover {
+        color: white;
+    }
+
+.A-body4 p {
+    text-transform: capitalize;
+    margin-top: 1em;
+
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: large;
+    color: white;
+    
+}
+
+.A-body4hover {
+    text-transform: uppercase;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3em;
+}
+
+.A-body4 a {
+    display:block;
+    width: 150px;
+    height: 50px;
+    background-color: grey;
+    color: #fff;
+    margin-top: 0em;
+    margin-left: 0em;
+    text-align: center;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 600;
+
+    border-radius: 7px;
+   
+
+    
+}
+
+.A-body4 a:hover {
+    background: #93855D;
+  
+    -webkit-transition: background 500ms linear;
+       -ms-transition: background 500ms linear;
+       transition: background 500ms linear;
+}
+
+.B-body1 
+    {
+        
+        width: 1440px;
+        height: 170em;
+    background-color: #11271A;}
+
+    .B-body1 img {
+        margin-top: 10em;
+        margin-left: 0em;
+    }
+
+    .B-body1 img:hover {
+        color: white;
+    }
+
+.B-body1 p {
+    text-transform: capitalize;
+    margin-top: 0%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-left: 2em;
+    font-size: 4em;
+    color: white;
+}
