@@ -479,3 +479,58 @@ color: white;
     font-size: 4em;
     color: white;
 }
+
+.imgholder
+    {
+        width: 1440px;
+        height: 920px;
+    background-color: #11271A;}
+
+    .imgholder img {
+        margin-top: 2em;
+        margin-left: 22em;
+    }
+
+    .imgholder img:hover {
+        color: white;
+    }
+
+.click {
+    text-transform: capitalize;
+    margin-top: 1em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+#buttonHolder {
+   
+    display: flex;
+    flex-direction: row;
+}
+
+#buttonHolder img {
+    margin-top: 5em;
+    margin-left: 5em;
+}
+
+#buttonHolder:hover{cursor: pointer;}
+
+.imageccholder { display:block;
+    width: 700px;
+    height: 520px;
+   
+
+ 
+    margin-left: 25em;
+
+
+    border-radius: 7px; }
+
+.headingtext {   text-transform: capitalize;
+    margin-bottom: 1em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color: white;}
